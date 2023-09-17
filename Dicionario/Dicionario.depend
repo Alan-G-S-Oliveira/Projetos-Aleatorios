@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1694955979 source:c:\users\alang\onedrive\Área de trabalho\progamação\dicionario\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"dicionario.h"
+
+1694911565 source:c:\users\alang\onedrive\Área de trabalho\progamação\dicionario\dicionario.c
+	<string.h>
+	<stdlib.h>
+	"dicionario.h"
+
+1694911565 c:\users\alang\onedrive\Área de trabalho\progamação\dicionario\dicionario.h
+
