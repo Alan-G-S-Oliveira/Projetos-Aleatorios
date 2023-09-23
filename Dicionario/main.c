@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <locale.h>
 #include "dicionario.h"
 
 void corrige_string(char *str);
+
+void limpa_tela();
 
 int main(){
 
@@ -28,7 +31,7 @@ int main(){
 
     }
 
-    system("cls");
+    limpa_tela();
     printf("Digite a matrícula do aluno para encontrá-lo: ");
     scanf("%d", &chave);
     fflush(stdin);
@@ -47,5 +50,15 @@ void corrige_string(char *str){
 
     if(str[strlen(str) - 1] == '\n')
         str[strlen(str) - 1] = '\0';
+
+}
+
+void limpa_tela(){
+
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif // _WIN32
 
 }

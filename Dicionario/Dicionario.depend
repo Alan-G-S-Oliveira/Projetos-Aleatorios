@@ -12,3 +12,17 @@
 
 1694911565 c:\users\alang\onedrive\Área de trabalho\progamação\dicionario\dicionario.h
 
+1694911565 source:c:\users\alang\onedrive\Área de trabalho\progamação\projetos-aleatorios\dicionario\dicionario.c
+	<string.h>
+	<stdlib.h>
+	"dicionario.h"
+
+1694911565 c:\users\alang\onedrive\Área de trabalho\progamação\projetos-aleatorios\dicionario\dicionario.h
+
+1695036293 source:c:\users\alang\onedrive\Área de trabalho\progamação\projetos-aleatorios\dicionario\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"dicionario.h"
+
